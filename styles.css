@@ -39,11 +39,10 @@ p {
   background-color:#FDFDFF;
   text-align: center;
   width: 90%;   /* This sets the width */
-  margin: 0 auto; /* This automatically sets left/right margins */
+  margin: auto auto 16px auto; /* This automatically sets left/right margins */
   border-radius: 5%;
   border-radius: 4px;
   padding: 16px 32px 32px 32px;
-  margin: 16px 0;
   box-shadow: 0 10px 30px rgba(0,0,0,.1)
 }
 
@@ -71,7 +70,6 @@ p {
 .linklist_nostyle li {
   display: inline-block;
   padding: 0px 20px;
-  font-size: xx-small;
 }
 
 .fact-list_nostyle {
