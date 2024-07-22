@@ -1,6 +1,6 @@
 
 body {
-  background-color: #FDFDFF;
+  background-color: #C6C5B9;
 }
 
 h1, h2, h3 {
@@ -16,6 +16,7 @@ p {
   font-size: small;
   color: rgba(177,116,15,0.9);
   font-family: "Hind Siliguri";
+  margin: 0 auto 20px auto;
 }
 
 .image-rounded {
@@ -35,7 +36,7 @@ p {
 }
 
 .container {
-  background-color: #C6C5B9;
+  background-color:#FDFDFF;
   text-align: center;
   width: 90%;   /* This sets the width */
   margin: 0 auto; /* This automatically sets left/right margins */
@@ -43,6 +44,7 @@ p {
   border-radius: 4px;
   padding: 16px 32px 32px 32px;
   margin: 16px 0;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1)
 }
 
 .container h1 {
@@ -55,7 +57,7 @@ p {
 }
 
 .fa-brands {
-  color: #FDFDFF;
+  color: #474A2C;
   width: 40px;
   height: 40px;
 }
@@ -66,21 +68,29 @@ p {
   padding-left: 0px;
 }
 
-
 .linklist_nostyle li {
   display: inline-block;
   padding: 0px 20px;
+  font-size: xx-small;
 }
 
 .fact-list_nostyle {
   list-style-type: none;
   align-items: center;
   padding-left: 0px;
+  margin: 0 auto 40px;
 }
 
 .fact-list_nostyle li {
   display: inline-block;
   padding: 0px 20px;
+  border-radius: 30px;
+  background-color: #474A2C;
+}
+
+.fact-list_nostyle p {
+  color:#FDFDFF;
+  font-size: x-small;
 }
 
 .button-orange {
@@ -89,17 +99,6 @@ p {
   padding: 16px;
   border-radius: 8px;
   color: #FDFDFF;
-}
-
-div.scroll-container {
-  background-color: #B1740F;
-  overflow: hidden;
-  white-space: nowrap;
-  padding: 10px;
-}
-
-div.scroll-container img {
-  padding: 10px;
 }
 
 @media (max-width: 960px) {
