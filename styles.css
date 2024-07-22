@@ -1,0 +1,124 @@
+
+body {
+  background-color: #FDFDFF;
+}
+
+h1, h2, h3 {
+  color:#474A2C;
+}
+
+p {
+  color: #B1740F;
+  font-family: "Hind Siliguri";
+}
+
+.text-subtle {
+  font-size: small;
+  color: rgba(177,116,15,0.9);
+  font-family: "Hind Siliguri";
+}
+
+.image-rounded {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 2.1px 4.2px 4.2px hsl(0deg 0% 0% / 0.44);
+}
+
+.image-squared {
+  height: 250px;
+  width: 250px;
+  /* border-radius: 50%; */
+  object-fit: cover;
+  box-shadow: 2.1px 4.2px 4.2px hsl(0deg 0% 0% / 0.44);
+}
+
+.container {
+  background-color: #C6C5B9;
+  text-align: center;
+  width: 90%;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  border-radius: 5%;
+  border-radius: 4px;
+  padding: 16px 32px 32px 32px;
+  margin: 16px 0;
+}
+
+.container h1 {
+  font-family: "Lato";
+}
+
+.card_title-darkgreen {
+  color: #474A2C;
+  font-family: "Averia Serif Libre";
+}
+
+.fa-brands {
+  color: #FDFDFF;
+  width: 40px;
+  height: 40px;
+}
+
+.linklist_nostyle {
+  list-style-type: none;
+  align-items: center;
+  padding-left: 0px;
+}
+
+
+.linklist_nostyle li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.fact-list_nostyle {
+  list-style-type: none;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.fact-list_nostyle li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.button-orange {
+  background-color: #B1740F;
+  font-family: "Hind Siliguri";
+  padding: 16px;
+  border-radius: 8px;
+  color: #FDFDFF;
+}
+
+div.scroll-container {
+  background-color: #B1740F;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
